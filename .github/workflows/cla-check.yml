@@ -12,7 +12,6 @@ jobs:
     steps:
       - name: Add Pending CLA Check
         run: |
-          echo "::warning file=CLA.md::CLA verification required."
           echo "Manual review required to confirm CLA has been signed."
 
   manual-approval:
