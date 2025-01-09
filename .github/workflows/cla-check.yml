@@ -9,7 +9,6 @@ jobs:
   cla-check:
     name: CLA Verification
     runs-on: ubuntu-latest
-
     steps:
       - name: Add Pending CLA Check
         run: |
@@ -19,6 +18,7 @@ jobs:
   manual-approval:
     name: Manual Approval
     runs-on: ubuntu-latest
+    environment: KnownContributor
     needs: cla-check
     permissions:
       actions: write  # Allow only specified users/teams to mark workflows as completed
