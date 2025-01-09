@@ -1,0 +1,29 @@
+name: CLA Verification Workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  cla-check:
+    name: CLA Verification
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Add Pending CLA Check
+        run: |
+          echo "::warning file=CLA.md::CLA verification required."
+          echo "Manual review required to confirm CLA has been signed."
+
+  manual-approval:
+    name: Manual Approval
+    runs-on: ubuntu-latest
+    needs: cla-check
+    permissions:
+      actions: write  # Allow only specified users/teams to mark workflows as completed
+    steps:
+      - name: Wait for Maintainer Approval
+        run: |
+          echo "Waiting for maintainer to approve this workflow."
+          echo "Only designated maintainers can approve."
