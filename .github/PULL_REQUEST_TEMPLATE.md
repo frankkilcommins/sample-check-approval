@@ -2,11 +2,11 @@
 
 Thank you for wanting to take an active part in contributing to SOAPUI. 
 
-First you MUST send us a signed copy of our [contributor agreement](https://assets.smartbear.com/m/7ca6657f659ff876/original/Open-Source-Contributor-License-Agreement.pdf?_gl=1*3ji61g*_gcl_au*MTIwNTU5NjMzNC4xNzMwMjA4MjY2).
+First you MUST send us a signed copy of our [contributor agreement](https://assets.smartbear.com/m/7ca6657f659ff876/original/Open-Source-Contributor-License-Agreement.pdf?_gl=1*3ji61g*_gcl_au*MTIwNTU5NjMzNC4xNzMwMjA4MjY2). 
 
-This is mandatory for both our sakes and a standard thing that all similar projects use. The purpose of the agreement is to assert both your rights as an author and our rights as an intellectual property holder.
+This is mandatory for both our sakes and a standard thing that all similar projects use. The purpose of the agreement is to assert both your rights as an author and our rights as an intellectual property holder. If you previously submitted an agreement prior to 01/01/2025, then we require a new one to be submitted.
 
-When we have received the agreement and all is ok we can start reviewing this PR.
+- [ ] Contributor Agreement submitted
 
 ## Pull Request Details
 Please include a summary of the changes and the related issue. Highlight key points or areas that require attention.
